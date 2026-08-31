@@ -187,5 +187,5 @@ print(f"first={first}, middle={middle}, last={last}")
 
 # Unit 2.3 (Advanced)
 scores = {"Alice": 88, "Bob": 65, "Carol": 92, "Dave": 71, "Eve": 58}
-name, score = max(scores.items(), key=lambda highscore: highscore[0])
+name, score = max(scores.items(), key=lambda highscore: highscore[1])
 print(f"{name} has scored the highest with {score}")
