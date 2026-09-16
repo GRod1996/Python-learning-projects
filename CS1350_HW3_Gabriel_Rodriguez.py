@@ -1,4 +1,5 @@
 # CS 1350 Mini-Project 1: Contact Manager
+<<<<<<< HEAD
 # Gabriel Rodriguez, Adonis Robinson, Joaquin Goldman
 
 # Contact records: name -> dictionary of details
@@ -11,11 +12,27 @@ contact_book = {
     "Boss": {"phone": "555-0000", "category": "Work", "city": "Chicago"},
     "Professor": {"phone": "555-2718", "category": "Work", "city": "Fort Wayne"},
     "Dentist": {"phone": "555-2222", "category": "Business", "city": "Indianapolis"},
+=======
+# Dictionaries & Dictionary Patterns
+# Runs top to bottom, no user input. No collections/statistics/pandas used.
+
+# Contact records: name -> dictionary of details
+contact_book = {
+    "Mom":         {"phone": "555-1234", "category": "Family",   "city": "Fort Wayne"},
+    "Dad":         {"phone": "555-4321", "category": "Family",   "city": "Fort Wayne"},
+    "Sister":      {"phone": "555-7777", "category": "Family",   "city": "Chicago"},
+    "Best Friend": {"phone": "555-8888", "category": "Friend",   "city": "Indianapolis"},
+    "Roommate":    {"phone": "555-3141", "category": "Friend",   "city": "Fort Wayne"},
+    "Boss":        {"phone": "555-0000", "category": "Work",     "city": "Chicago"},
+    "Professor":   {"phone": "555-2718", "category": "Work",     "city": "Fort Wayne"},
+    "Dentist":     {"phone": "555-2222", "category": "Business", "city": "Indianapolis"},
+>>>>>>> f2e0598b80aeffeede28c9d0a5f44d8794b60c13
 }
 
 # Call log: name -> {month -> minutes talked that month}
 # Note: not every contact was called every month.
 call_log = {
+<<<<<<< HEAD
     "Mom": {"Jan": 120, "Feb": 95, "Mar": 140},
     "Dad": {"Jan": 45, "Feb": 60, "Mar": 30},
     "Sister": {"Jan": 80, "Mar": 70},
@@ -24,6 +41,16 @@ call_log = {
     "Boss": {"Jan": 60, "Feb": 90, "Mar": 75},
     "Professor": {"Feb": 20, "Mar": 35},
     "Dentist": {"Jan": 10},
+=======
+    "Mom":         {"Jan": 120, "Feb": 95,  "Mar": 140},
+    "Dad":         {"Jan": 45,  "Feb": 60,  "Mar": 30},
+    "Sister":      {"Jan": 80,  "Mar": 70},
+    "Best Friend": {"Jan": 200, "Feb": 180, "Mar": 220},
+    "Roommate":    {"Feb": 15,  "Mar": 25},
+    "Boss":        {"Jan": 60,  "Feb": 90,  "Mar": 75},
+    "Professor":   {"Feb": 20,  "Mar": 35},
+    "Dentist":     {"Jan": 10},
+>>>>>>> f2e0598b80aeffeede28c9d0a5f44d8794b60c13
 }
 
 
@@ -179,6 +206,7 @@ print("\n=== Phase 4: Comprehensions ===")
 
 phone_book = {name: details["phone"] for name, details in contact_book.items()}
 
+<<<<<<< HEAD
 local_contacts = {
     name: details["phone"]
     for name, details in contact_book.items()
@@ -189,6 +217,11 @@ activity_level = {
     name: "Frequent" if minutes >= 200 else "Occasional"
     for name, minutes in total_minutes.items()
 }
+=======
+local_contacts = {name: details["phone"] for name, details in contact_book.items() if details["city"] == "Fort Wayne"}
+
+activity_level = {name: "Frequent" if minutes >= 200 else "Occasional" for name, minutes in total_minutes.items()}
+>>>>>>> f2e0598b80aeffeede28c9d0a5f44d8794b60c13
 
 print("Phone book:", phone_book)
 print("Local contacts (Fort Wayne):", local_contacts)
@@ -201,7 +234,10 @@ print("Activity level:", activity_level)
 
 print("\n=== Phase 5: Tier Report ===")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f2e0598b80aeffeede28c9d0a5f44d8794b60c13
 # --- Part A: classify each contact ---
 def get_tier(minutes):
     """Return the loyalty tier for a given total-minutes value."""
