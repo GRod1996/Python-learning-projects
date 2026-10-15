@@ -1,4 +1,4 @@
-"""
+
 class Library:
     def __init__(self):
         self.books = {}
@@ -59,7 +59,7 @@ print(lib.checkout("999"))
 print(lib.by_author("Jane Doe"))
 print(lib.inventory_value({"111": 20.0, "333": 30.0, "999": 5.0}))
 print(lib.low_stock(3))
-"""
+
 #Excercise 2
 class Duration:
     def __init__(self, hours=0, minutes=0, seconds=0):
@@ -142,3 +142,4 @@ try:
     print(a["days"])
 except KeyError:
     print("Caught: bad unit")
+    
