@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "machine": "server_a",
+    "severity": "high",
+    "description": "Account root locked"
+  },
+  {
+    "id": 4,
+    "machine": "server_a",
+    "severity": "medium",
+    "description": "Repeated failed logins"
+  }
+]

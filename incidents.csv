@@ -1,0 +1,6 @@
+id,machine,severity,description
+1,server_a,high,Account root locked
+2,server_b,high,Disk encryption failed
+3,server_b,low,Unencrypted volume mounted
+4,server_a,medium,Repeated failed logins
+5,server_b,high,Unauthorized access on port 22

@@ -1,0 +1,6 @@
+server_a | 2026-10-05 08:01:12 [INFO] User alice logged in
+server_a | 2026-10-05 08:15:30 [INFO] Firewall rules reloaded
+server_a | 2026-10-05 09:02:11 [INFO] User alice logged out
+server_b | 2026-10-05 08:00:05 [INFO] System boot complete
+server_b | 2026-10-05 08:45:19 [INFO] User bob logged in
+server_b | 2026-10-05 09:30:00 [INFO] Backup completed

@@ -1,0 +1,17 @@
+{
+  "total": 5,
+  "by_machine": {
+    "server_a": 2,
+    "server_b": 3
+  },
+  "by_severity": {
+    "high": 3,
+    "low": 1,
+    "medium": 1
+  },
+  "high_ids": [
+    1,
+    2,
+    5
+  ]
+}

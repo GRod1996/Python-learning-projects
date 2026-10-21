@@ -1,0 +1,6 @@
+2026-10-05 08:01:12 [INFO] User alice logged in
+2026-10-05 08:03:45 [WARNING] Failed login attempt for user root
+2026-10-05 08:03:59 [WARNING] Failed login attempt for user root
+2026-10-05 08:04:10 [ERROR] Account root locked after repeated failures
+2026-10-05 08:15:30 [INFO] Firewall rules reloaded
+2026-10-05 09:02:11 [INFO] User alice logged out

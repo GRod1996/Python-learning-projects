@@ -1,0 +1,7 @@
+2026-10-05 08:00:05 [INFO] System boot complete
+2026-10-05 08:20:41 [ERROR] Disk encryption service failed to start
+2026-10-05 08:21:02 [WARNING] Unencrypted volume mounted
+2026-10-05 08:45:19 [INFO] User bob logged in
+2026-10-05 09:10:33 [ERROR] Unauthorized access attempt on port 22
+
+2026-10-05 09:30:00 [INFO] Backup completed
